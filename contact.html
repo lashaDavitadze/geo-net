@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+    <!--Plugins-->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="plugins/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.css">
+
+    <!--Page Links-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="plugins/getmdl-select-master/getmdl-select.min.css">
+
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+<body class="site">
+<header class="site__header">
+    <div class="header">
+        <section class="header__top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between h-50">
+                    <nav class="languages">
+                        <a class="languages__links" href="#">eng</a>
+                        <a class="languages__links" href="#">rus</a>
+                        <a class="languages__links active" href="#">geo</a>
+                    </nav>
+                    <div class="header__quick-links d-none d-lg-flex">
+                        <a class="header__quick-link" href="#">დახმარება</a>
+                        <a class="header__quick-link" href="#">რეგისტრაცია</a>
+                    </div>
+                    <div class="mobile-menu d-lg-none" id="mobile-menu">
+                        <button class="mobile-menu__button">
+                                <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                         height="16px">
+                                        <g transform="translate(0 -53.833)">
+                                            <g transform="translate(0 53.833)">
+                                                <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -53.833)"/>
+                                                <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -174.274)"/>
+                                                <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -294.715)"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                        </button>
+                        <div class="mobile-menu-wrapper">
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">მთავარი</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">პროდუქტი</a>
+                                </li>
+                                <li class="mobile-menu__item mobile-menu__item--with-submenu">
+                                    <a class="mobile-menu__link mobile-menu__link--with-submenu" href="#">ჩვენ
+                                        შესახებ</a>
+                                    <ul class="mobile-menu-list mobile-menu--submenu">
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">კომპანიის
+                                            მისია და მიზანი</a></li>
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">რა არის
+                                            ქსელური მარკეტინგი</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">რეგისტრაცია</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">დახმარება</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">კონტაქტი</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header__bottom d-flex align-items-center">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="logo d-block" href="index.html">
+                        <h1 class="d-none">Geo-net</h1>
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="desktop-menu p-0 m-0 d-none d-lg-flex align-items-center">
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">მთავარი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">პროდუქტი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">ჩვენ შესახებ</a>
+                            <ul class="desktop-menu__submenu">
+                                <li class="desktop-menu__item">
+                                    <a class="desktop-menu__link" href="#">კომპანიის მისია და მიზანი</a>
+                                </li>
+                                <li class="desktop-menu__item">
+                                    <a class="desktop-menu__link" href="#">რა არის ქსელური მარკეტინგი</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">ბიზნესი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">სიახლეები</a>
+                        </li>
+                        <li class="desktop-menu__item active">
+                            <a class="desktop-menu__link" href="#">კონტაქტი</a>
+                        </li>
+                    </ul>
+                    <a class="sign-in-link d-flex align-items-center justify-content-center" href="#">
+                        <span class="txt d-none d-lg-block">ავტორიზაცია</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<main class="site__content">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="page-title">კონტაქტი</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact__info d-flex flex-column flex-lg-row mb-50 mt-25">
+                        <div class="contact__info--item d-flex align-items-center justify-content-center">
+                            <a class="contact__info--link d-flex align-items-center" href="tel:2300400">
+                                <span class="contact__info--icon d-block">
+                                    <svg class="d-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36px" height="36px">
+                                      <g transform="translate(0 -0.003)">
+                                        <g  transform="translate(0 0.003)">
+                                          <path fill="#212121" d="M28.929,36a15.469,15.469,0,0,1-5.294-1.125,39.738,39.738,0,0,1-13.36-9.151A39.743,39.743,0,0,1,1.126,12.363c-1.5-3.966-1.5-7.221-.012-8.71.215-.216.435-.446.66-.682C3.133,1.542,4.706-.082,6.7.007c1.4.058,2.764.93,4.159,2.662,4.111,5.116,2.258,6.94.113,9.054l-.38.375c-.351.351-1.016,1.976,5.157,8.149a34.357,34.357,0,0,0,5.105,4.383c.866.562,2.41,1.409,3.044.776l.381-.385c2.111-2.143,3.935-3.991,9.048.12,1.732,1.393,2.6,2.752,2.661,4.158.084,2.037-1.539,3.577-2.97,4.936-.235.224-.465.441-.678.654A4.724,4.724,0,0,1,28.929,36ZM6.561,1.213c-1.446,0-2.753,1.376-3.909,2.591-.234.245-.46.483-.682.7-1.109,1.108-1,4.024.288,7.428a38.537,38.537,0,0,0,8.873,12.936,38.528,38.528,0,0,0,12.931,8.874c3.4,1.285,6.318,1.4,7.427.286.222-.22.458-.446.7-.676,1.245-1.183,2.655-2.522,2.594-4.009-.042-1.021-.786-2.119-2.211-3.263-4.262-3.424-5.452-2.214-7.427-.213l-.387.391c-.941.946-2.475.739-4.559-.618A35.5,35.5,0,0,1,14.9,21.1h0c-5.122-5.123-6.762-8.257-5.157-9.863l.386-.383c2.007-1.976,3.218-3.169-.207-7.431C8.774,2,7.676,1.259,6.655,1.215Z" transform="translate(0 -0.003)"/>
+                                        </g>
+                                        <g  transform="translate(18.51 0.011)">
+                                          <path fill="#212121" d="M25.5,13.865a.605.605,0,0,1-.561-.832,5.09,5.09,0,0,0-6.812-6.551.6.6,0,0,1-.5-1.1,6.3,6.3,0,0,1,8.432,8.108A.607.607,0,0,1,25.5,13.865Z" transform="translate(-14.871 1.006)"/>
+                                          <path fill="#212121" d="M31.324,17.074a.605.605,0,0,1-.561-.832A10.923,10.923,0,0,0,16.144,2.181a.606.606,0,0,1-.5-1.106A12.134,12.134,0,0,1,31.885,16.7.6.6,0,0,1,31.324,17.074Z" transform="translate(-15.289 -0.009)"/>
+                                        </g>
+                                      </g>
+                                    </svg>
+                                </span>
+                                <span class="contact__info--txt text-center">0322 640 640</span>
+                            </a>
+                        </div>
+                        <div class="contact__info--item d-flex align-items-center justify-content-center">
+                            <a class="contact__info--link d-flex align-items-center" href="mailto:Info@geonet.ge" target="_top">
+                                <span class="contact__info--icon d-block">
+                                    <svg class="d-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 30" width="42px" height="30px">
+                                      <g transform="translate(0 -4.482)">
+                                        <g  transform="translate(7.315 18.946)">
+                                          <path fill="#212121" d="M27.325,23.818a.669.669,0,0,1-.463-.185l-7.793-7.345a.682.682,0,0,1-.03-.961A.672.672,0,0,1,20,15.3l7.793,7.345a.682.682,0,0,1,.03.961A.674.674,0,0,1,27.325,23.818Z" transform="translate(-0.635 -15.111)"/>
+                                          <path fill="#212121" d="M6.079,23.818a.68.68,0,0,1-.465-1.176l7.8-7.345a.679.679,0,0,1,.928.991l-7.8,7.345A.669.669,0,0,1,6.079,23.818Z" transform="translate(-5.402 -15.111)"/>
+                                        </g>
+                                        <path fill="#212121" d="M38.614,34.482H3.386A3.4,3.4,0,0,1,0,31.08V7.884a3.4,3.4,0,0,1,3.386-3.4H38.614A3.4,3.4,0,0,1,42,7.884v23.2A3.4,3.4,0,0,1,38.614,34.482ZM3.386,5.843A2.039,2.039,0,0,0,1.354,7.884v23.2a2.039,2.039,0,0,0,2.031,2.041H38.614a2.039,2.039,0,0,0,2.031-2.041V7.884a2.039,2.039,0,0,0-2.031-2.041Z"/>
+                                        <path fill="#212121" d="M20.767,22.613a3.776,3.776,0,0,1-2.487-.9L.891,6.471a.679.679,0,1,1,.89-1.026L19.17,20.685a2.525,2.525,0,0,0,3.192,0L39.73,5.47a.676.676,0,0,1,.956.065.684.684,0,0,1-.065.961L23.253,21.711A3.773,3.773,0,0,1,20.767,22.613Z" transform="translate(0.233 0.287)"/>
+                                      </g>
+                                    </svg>
+                                </span>
+                                <span class="contact__info--txt text-center">Info@geonet.ge</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="message-wrapper clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center">დაგვიკავშირდით</h2>
+                    </div>
+                </div>
+                <form action="#" class="form-not-valid contact-form">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="mdl-text-fields">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z]{2,32}" id="sample1">
+                                    <label class="mdl-textfield__label" for="sample1">სახელი</label>
+                                    <span class="mdl-textfield__error">მხოლოდ ასოები 2-დან 32-მდე!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mdl-text-fields">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" pattern="^[0-9-+s()]*$" id="sample4">
+                                    <label class="mdl-textfield__label" for="sample4">ტელეფონის ნომერი</label>
+                                    <span class="mdl-textfield__error">მხოლოდ ციფრები!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mdl-text-fields">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="sample3">
+                                    <label class="mdl-textfield__label" for="sample3">ელ.ფოსტა</label>
+                                    <span class="mdl-textfield__error">მხოლოდ ვალიდური ელ.ფოსტა!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mdl-text-fields">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z]{2,32}" id="sample2">
+                                    <label class="mdl-textfield__label" for="sample2">სათაური</label>
+                                    <span class="mdl-textfield__error">მხოლოდ ასოები 2-დან 32-მდე!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mdl-text-fields">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <textarea class="mdl-textfield__input" type="text" id="sample5"></textarea>
+                                    <label class="mdl-textfield__label" for="sample5">Message</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center mt-15 mb-65">
+                            <button type="submit" class="btn--submit"> <!--ამ ღილაკზე არის ივენთი-->
+                                <span class="red-button d-flex align-items-center justify-content-center">
+                                    <span class="txt d-block">გაგზავნა</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="d-none message-sent-wrapper text-center">
+                    The message has been sent and we will reply within 24 hours
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="site__footer">
+    <div class="footer">
+        <div class="container">
+            <section class="footer__top d-flex">
+                <div class="footer__top-left d-none d-lg-block">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <div class="txt mt-20">
+                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია
+                    </div>
+                </div>
+                <div class="footer__top-right">
+                    <div class="d-flex align-items-center justify-content-between d-lg-none h-70 footer__top-right__mobile-switch">
+                        <nav class="footer__top__social d-flex align-items-center">
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </nav>
+                        <button class="mobile-footer-button">
+                            <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                     height="16px">
+                                    <g transform="translate(0 -53.833)">
+                                        <g transform="translate(0 53.833)">
+                                            <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -53.833)"/>
+                                            <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -174.274)"/>
+                                            <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -294.715)"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14px"
+                                     height="14px">
+                                  <g>
+                                    <path id="Path_89" data-name="Path 89"
+                                          d="M14,1.4,12.6,0,7,5.6,1.4,0,0,1.4,5.6,7,0,12.6,1.4,14,7,8.4,12.6,14,14,12.6,8.4,7Z"/>
+                                  </g>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="footer__top__list d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-between">
+                        <div class="footer__top__item d-none d-lg-block">
+                            <h3 class="footer__top__title">სოციალური ქსელები</h3>
+                            <nav class="footer__top__social d-flex align-items-center">
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </nav>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                კომპანია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">ჩვენ შესახებ</a>
+                                <a class="footer__top__link" href="#">კომპანიის მისია და მიზანი</a>
+                                <a class="footer__top__link" href="#">ბიზნეს შესაძლებლობები</a>
+                            </div>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                ინფორმაცია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">FAQ</a>
+                                <a class="footer__top__link" href="#">რეგისტრაცია</a>
+                                <a class="footer__top__link" href="#">კონტაქტი</a>
+                                <a class="footer__top__link" href="#">პარტნიორები</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="footer__bottom d-flex align-items-center justify-content-center text-center pl-15 pr-15 h-55">
+            ყველა უფლება დაცულია © www.GEONET.GE
+        </section>
+    </div>
+</footer>
+
+<!--Plugins-->
+<script src="plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+<!--Page Scripts-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script defer src="plugins/getmdl-select-master/getmdl-select.min.js"></script>
+
+<!--Custom Scripts-->
+<script src="minJs/default.min.js"></script>
+</body>
+</html>

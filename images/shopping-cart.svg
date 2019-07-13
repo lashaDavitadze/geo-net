@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.452 18">
+  <g id="shopping-cart" transform="translate(0 -19.114)">
+    <g id="Group_128" data-name="Group 128" transform="translate(6.445 33.692)">
+      <g id="Group_127" data-name="Group 127">
+        <path id="Path_95" data-name="Path 95" d="M171.367,402.828a1.711,1.711,0,1,0,1.711,1.711A1.713,1.713,0,0,0,171.367,402.828Zm0,2.466a.756.756,0,1,1,.756-.755A.756.756,0,0,1,171.367,405.294Z" transform="translate(-169.656 -402.828)"/>
+      </g>
+    </g>
+    <g id="Group_130" data-name="Group 130" transform="translate(12.446 33.692)">
+      <g id="Group_129" data-name="Group 129">
+        <path id="Path_96" data-name="Path 96" d="M329.312,402.828a1.711,1.711,0,1,0,1.711,1.711A1.713,1.713,0,0,0,329.312,402.828Zm0,2.466a.756.756,0,1,1,.756-.755A.756.756,0,0,1,329.312,405.294Z" transform="translate(-327.601 -402.828)"/>
+      </g>
+    </g>
+    <g id="Group_132" data-name="Group 132" transform="translate(7.256 24.685)">
+      <g id="Group_131" data-name="Group 131" transform="translate(0 0)">
+        <path id="Path_97" data-name="Path 97" d="M198.318,165.755h-6.844a.478.478,0,1,0,0,.955h6.844a.478.478,0,1,0,0-.955Z" transform="translate(-190.996 -165.755)"/>
+      </g>
+    </g>
+    <g id="Group_134" data-name="Group 134" transform="translate(7.629 27.165)">
+      <g id="Group_133" data-name="Group 133" transform="translate(0 0)">
+        <path id="Path_98" data-name="Path 98" d="M207.379,231.035h-6.1a.478.478,0,0,0,0,.955h6.1a.478.478,0,0,0,0-.955Z" transform="translate(-200.802 -231.035)"/>
+      </g>
+    </g>
+    <g id="Group_136" data-name="Group 136" transform="translate(0 19.114)">
+      <g id="Group_135" data-name="Group 135" transform="translate(0 0)">
+        <path id="Path_99" data-name="Path 99" d="M19.237,22.557a.951.951,0,0,0-.74-.352H3.619l-.3-1.459a.956.956,0,0,0-.555-.683l-2.1-.91a.478.478,0,0,0-.38.876l2.1.91L4.694,32.158a.959.959,0,0,0,.936.762H17.072a.478.478,0,1,0,0-.955H5.63L5.349,30.6H17.161a.959.959,0,0,0,.936-.762l1.336-6.484A.951.951,0,0,0,19.237,22.557Zm-2.076,7.088H5.152L3.816,23.161H18.5Z" transform="translate(0 -19.114)"/>
+      </g>
+    </g>
+  </g>
+</svg>

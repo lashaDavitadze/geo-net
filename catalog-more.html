@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+    <!--Plugins-->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="plugins/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.css">
+
+    <!--Page Links-->
+
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+<body class="site">
+<header class="site__header">
+    <div class="header">
+        <section class="header__top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between h-50">
+                    <nav class="languages">
+                        <a class="languages__links" href="#">eng</a>
+                        <a class="languages__links" href="#">rus</a>
+                        <a class="languages__links active" href="#">geo</a>
+                    </nav>
+                    <div class="header__quick-links d-none d-lg-flex">
+                        <a class="header__quick-link" href="#">დახმარება</a>
+                        <a class="header__quick-link" href="#">რეგისტრაცია</a>
+                    </div>
+                    <div class="mobile-menu d-lg-none" id="mobile-menu">
+                        <button class="mobile-menu__button">
+                                <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                         height="16px">
+                                        <g transform="translate(0 -53.833)">
+                                            <g transform="translate(0 53.833)">
+                                                <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -53.833)"/>
+                                                <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -174.274)"/>
+                                                <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -294.715)"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                        </button>
+                        <div class="mobile-menu-wrapper">
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">მთავარი</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">პროდუქტი</a>
+                                </li>
+                                <li class="mobile-menu__item mobile-menu__item--with-submenu">
+                                    <a class="mobile-menu__link mobile-menu__link--with-submenu" href="#">ჩვენ
+                                        შესახებ</a>
+                                    <ul class="mobile-menu-list mobile-menu--submenu">
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">კომპანიის
+                                            მისია და მიზანი</a></li>
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">რა არის
+                                            ქსელური მარკეტინგი</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">რეგისტრაცია</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">დახმარება</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">კონტაქტი</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header__bottom d-flex align-items-center">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="logo d-block" href="index.html">
+                        <h1 class="d-none">Geo-net</h1>
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="desktop-menu p-0 m-0 d-none d-lg-flex align-items-center">
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">მთავარი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">პროდუქტი</a>
+                        </li>
+                        <li class="desktop-menu__item active">
+                            <a class="desktop-menu__link" href="#">ჩვენ შესახებ</a>
+                            <ul class="desktop-menu__submenu">
+                                <li class="desktop-menu__item active">
+                                    <a class="desktop-menu__link" href="#">კომპანიის მისია და მიზანი</a>
+                                </li>
+                                <li class="desktop-menu__item">
+                                    <a class="desktop-menu__link" href="#">რა არის ქსელური მარკეტინგი</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">ბიზნესი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">სიახლეები</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">კონტაქტი</a>
+                        </li>
+                    </ul>
+                    <a class="sign-in-link d-flex align-items-center justify-content-center" href="#">
+                        <span class="txt d-none d-lg-block">ავტორიზაცია</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<main class="site__content">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="page-title">მოგზაურობა</h2>
+                </div>
+                <div class="col-lg-3">
+                    <aside class="aside-menu mb-20">
+                        <button class="aside-menu__current-item-button d-lg-none">
+                            <span class="d-flex align-items-center justify-content-start text-left aside-menu__current-item">
+                                მოგზაურობა
+                            </span>
+                        </button>
+                        <div class="aside-menu__list">
+                            <a class="aside-menu__item d-flex align-items-center active" href="#">მოგზაურობა</a>
+                            <a class="aside-menu__item d-flex align-items-center" href="#">საყოფაცხოვრებო</a>
+                            <a class="aside-menu__item d-flex align-items-center" href="#">ტექნიკა</a>
+                            <a class="aside-menu__item d-flex align-items-center" href="#">თავის მოვლის საშუალებები</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-9">
+                    <section class="catalog-more">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-1.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-2.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-3.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-4.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-5.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="catalog-more__item d-flex align-items-center justify-content-center">
+                                   <div class="catalog-more__img d-flex align-items-center justify-content-center">
+                                        <img src="images/catalog-6.png" alt="">
+                                   </div>
+                                    <a class="catalog-more-button red-button d-flex align-items-center justify-content-center" href="#">
+                                        <span class="txt">სრულად</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mt-30 mb-60">
+                                    <nav class="pagination d-flex">
+                                        <a class="pagination__link d-flex align-items-center justify-content-center active" href="#">1</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center" href="#">2</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center" href="#">3</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center pagination__dots" href="#">..</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center" href="#">7</a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="site__footer">
+    <div class="footer">
+        <div class="container">
+            <section class="footer__top d-flex">
+                <div class="footer__top-left d-none d-lg-block">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <div class="txt mt-20">
+                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია
+                    </div>
+                </div>
+                <div class="footer__top-right">
+                    <div class="d-flex align-items-center justify-content-between d-lg-none h-70 footer__top-right__mobile-switch">
+                        <nav class="footer__top__social d-flex align-items-center">
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </nav>
+                        <button class="mobile-footer-button">
+                            <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                     height="16px">
+                                    <g transform="translate(0 -53.833)">
+                                        <g transform="translate(0 53.833)">
+                                            <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -53.833)"/>
+                                            <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -174.274)"/>
+                                            <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -294.715)"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14px"
+                                     height="14px">
+                                  <g>
+                                    <path id="Path_89" data-name="Path 89"
+                                          d="M14,1.4,12.6,0,7,5.6,1.4,0,0,1.4,5.6,7,0,12.6,1.4,14,7,8.4,12.6,14,14,12.6,8.4,7Z"/>
+                                  </g>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="footer__top__list d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-between">
+                        <div class="footer__top__item d-none d-lg-block">
+                            <h3 class="footer__top__title">სოციალური ქსელები</h3>
+                            <nav class="footer__top__social d-flex align-items-center">
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </nav>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                კომპანია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">ჩვენ შესახებ</a>
+                                <a class="footer__top__link" href="#">კომპანიის მისია და მიზანი</a>
+                                <a class="footer__top__link" href="#">ბიზნეს შესაძლებლობები</a>
+                            </div>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                ინფორმაცია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">FAQ</a>
+                                <a class="footer__top__link" href="#">რეგისტრაცია</a>
+                                <a class="footer__top__link" href="#">კონტაქტი</a>
+                                <a class="footer__top__link" href="#">პარტნიორები</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="footer__bottom d-flex align-items-center justify-content-center text-center pl-15 pr-15 h-55">
+            ყველა უფლება დაცულია © www.GEONET.GE
+        </section>
+    </div>
+</footer>
+
+<!--Plugins-->
+<script src="plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+<!--Page Scripts-->
+
+<!--Custom Scripts-->
+<script src="minJs/default.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+    <!--Plugins-->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="plugins/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.css">
+
+    <!--Page Links-->
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="plugins/getmdl-select-master/getmdl-select.min.css">
+
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+<body class="site">
+<header class="site__header">
+    <div class="header">
+        <section class="header__top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between h-50">
+                    <nav class="languages">
+                        <a class="languages__links" href="#">eng</a>
+                        <a class="languages__links" href="#">rus</a>
+                        <a class="languages__links active" href="#">geo</a>
+                    </nav>
+                    <div class="header__quick-links d-none d-lg-flex">
+                        <a class="header__quick-link" href="#">დახმარება</a>
+                        <a class="header__quick-link" href="#">რეგისტრაცია</a>
+                    </div>
+                    <div class="mobile-menu d-lg-none" id="mobile-menu">
+                        <button class="mobile-menu__button">
+                                <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                         height="16px">
+                                        <g transform="translate(0 -53.833)">
+                                            <g transform="translate(0 53.833)">
+                                                <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -53.833)"/>
+                                                <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -174.274)"/>
+                                                <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                      transform="translate(0 -294.715)"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                        </button>
+                        <div class="mobile-menu-wrapper">
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">მთავარი</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">პროდუქტი</a>
+                                </li>
+                                <li class="mobile-menu__item mobile-menu__item--with-submenu">
+                                    <a class="mobile-menu__link mobile-menu__link--with-submenu" href="#">ჩვენ
+                                        შესახებ</a>
+                                    <ul class="mobile-menu-list mobile-menu--submenu">
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">კომპანიის
+                                            მისია და მიზანი</a></li>
+                                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">რა არის
+                                            ქსელური მარკეტინგი</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">რეგისტრაცია</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">დახმარება</a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a class="mobile-menu__link" href="#">კონტაქტი</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header__bottom d-flex align-items-center">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="logo d-block" href="index.html">
+                        <h1 class="d-none">Geo-net</h1>
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="desktop-menu p-0 m-0 d-none d-lg-flex align-items-center">
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">მთავარი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">პროდუქტი</a>
+                        </li>
+                        <li class="desktop-menu__item active">
+                            <a class="desktop-menu__link" href="#">ჩვენ შესახებ</a>
+                            <ul class="desktop-menu__submenu">
+                                <li class="desktop-menu__item active">
+                                    <a class="desktop-menu__link" href="#">კომპანიის მისია და მიზანი</a>
+                                </li>
+                                <li class="desktop-menu__item">
+                                    <a class="desktop-menu__link" href="#">რა არის ქსელური მარკეტინგი</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">ბიზნესი</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">სიახლეები</a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a class="desktop-menu__link" href="#">კონტაქტი</a>
+                        </li>
+                    </ul>
+                    <a class="user-id-link d-flex align-items-center justify-content-center" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 22" width="20px" height="20px"
+                             class="d-block">
+                            <g transform="translate(-21.277)">
+                                <g transform="translate(21.277)">
+                                    <g transform="translate(0)">
+                                        <path fill="#f12139"
+                                              d="M94.6,165.156a8.645,8.645,0,0,1-1.027-4.24,5.195,5.195,0,0,1,10.364,0,.555.555,0,0,0,1.111,0,6.3,6.3,0,0,0-12.585,0,9.712,9.712,0,0,0,1.172,4.779,11.54,11.54,0,0,0,2.233,2.9.554.554,0,0,0,.394.165.5.5,0,0,0,.383-.165.539.539,0,0,0,.006-.776A10.438,10.438,0,0,1,94.6,165.156Z"
+                                              transform="translate(-88.756 -146.995)"/>
+                                        <path fill="#f12139"
+                                              d="M79.726,2.651A13.1,13.1,0,0,1,92.1,2.656a.6.6,0,0,0,.255.06h0a.563.563,0,0,0,.494-.3.551.551,0,0,0-.239-.742,14.235,14.235,0,0,0-13.418.006.549.549,0,0,0-.222.748A.56.56,0,0,0,79.726,2.651Z"
+                                              transform="translate(-75.903 0)"/>
+                                        <path fill="#f12139"
+                                              d="M46.846,103.04a9.236,9.236,0,0,0-8.342,5.055,8.077,8.077,0,0,0-.761,3.558,12.142,12.142,0,0,0,.811,4.35.561.561,0,0,0,.716.324.552.552,0,0,0,.328-.71,10.878,10.878,0,0,1-.739-3.965,7.008,7.008,0,0,1,.65-3.085,8.112,8.112,0,0,1,7.342-4.433,7.8,7.8,0,0,1,8.048,7.518,2.317,2.317,0,0,1-4.621,0,3.426,3.426,0,0,0-6.842,0,8.014,8.014,0,0,0,2.4,5.742,8.5,8.5,0,0,0,4.127,2.31.418.418,0,0,0,.144.022.548.548,0,0,0,.144-1.078,7.512,7.512,0,0,1-3.638-2.03,6.925,6.925,0,0,1-2.077-4.961,2.317,2.317,0,0,1,4.621,0,3.426,3.426,0,0,0,6.842,0A8.912,8.912,0,0,0,46.846,103.04Z"
+                                              transform="translate(-36.886 -97.727)"/>
+                                        <path fill="#f12139"
+                                              d="M41.174,56.922a11.588,11.588,0,0,0-4.165-3.575,12.929,12.929,0,0,0-11.458.011,11.536,11.536,0,0,0-4.171,3.6.544.544,0,0,0,.133.765.583.583,0,0,0,.322.1.567.567,0,0,0,.455-.225,10.4,10.4,0,0,1,3.771-3.261A11.79,11.79,0,0,1,36.5,54.326a10.4,10.4,0,0,1,3.766,3.234.562.562,0,0,0,.778.126A.543.543,0,0,0,41.174,56.922Z"
+                                              transform="translate(-21.277 -49.332)"/>
+                                        <path fill="#f12139"
+                                              d="M208.717,264.561a7.364,7.364,0,0,1-1.161.1,4.877,4.877,0,0,1-2.816-.786,4.748,4.748,0,0,1-2.155-3.916.555.555,0,0,0-1.111,0,5.85,5.85,0,0,0,2.638,4.829,6.077,6.077,0,0,0,3.443.974,8.028,8.028,0,0,0,1.355-.121.55.55,0,1,0-.194-1.083Z"
+                                              transform="translate(-192.092 -246.037)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="txt d-block ml-15">ID - 836415</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<main class="site__content">
+    <div class="content">
+        <div class="container">
+            <div class="product-slider mb-0 mt-40">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 1</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 2</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 3</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 4</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 5</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item">
+                        <article class="main-product-item" style="background-image: url('images/main-product.jpg')">
+                            <div class="main-product-item__info d-flex flex-column justify-content-center align-items-start">
+                                <h4 class="main-product-item__brand">Omega Seamaster Professional 6</h4>
+                                <h3 class="main-product-item__name">სვოჩის წყალგაუმტარი მოდელი</h3>
+                                <a class="main-product-item__button red-button d-flex align-items-center justify-content-center"
+                                   href="#">
+                                    <span class="txt">ყიდვა</span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
+                    <h2 class="page-title">კაბინეტი</h2>
+                    <a class="cart-link d-flex align-items-center" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.452 18" width="20px" height="18px">
+                            <g transform="translate(0 -19.114)">
+                                <g transform="translate(6.445 33.692)">
+                                    <g>
+                                        <path d="M171.367,402.828a1.711,1.711,0,1,0,1.711,1.711A1.713,1.713,0,0,0,171.367,402.828Zm0,2.466a.756.756,0,1,1,.756-.755A.756.756,0,0,1,171.367,405.294Z"
+                                              transform="translate(-169.656 -402.828)"/>
+                                    </g>
+                                </g>
+                                <g transform="translate(12.446 33.692)">
+                                    <g>
+                                        <path d="M329.312,402.828a1.711,1.711,0,1,0,1.711,1.711A1.713,1.713,0,0,0,329.312,402.828Zm0,2.466a.756.756,0,1,1,.756-.755A.756.756,0,0,1,329.312,405.294Z"
+                                              transform="translate(-327.601 -402.828)"/>
+                                    </g>
+                                </g>
+                                <g transform="translate(7.256 24.685)">
+                                    <g transform="translate(0 0)">
+                                        <path d="M198.318,165.755h-6.844a.478.478,0,1,0,0,.955h6.844a.478.478,0,1,0,0-.955Z"
+                                              transform="translate(-190.996 -165.755)"/>
+                                    </g>
+                                </g>
+                                <g transform="translate(7.629 27.165)">
+                                    <g transform="translate(0 0)">
+                                        <path d="M207.379,231.035h-6.1a.478.478,0,0,0,0,.955h6.1a.478.478,0,0,0,0-.955Z"
+                                              transform="translate(-200.802 -231.035)"/>
+                                    </g>
+                                </g>
+                                <g transform="translate(0 19.114)">
+                                    <g transform="translate(0 0)">
+                                        <path d="M19.237,22.557a.951.951,0,0,0-.74-.352H3.619l-.3-1.459a.956.956,0,0,0-.555-.683l-2.1-.91a.478.478,0,0,0-.38.876l2.1.91L4.694,32.158a.959.959,0,0,0,.936.762H17.072a.478.478,0,1,0,0-.955H5.63L5.349,30.6H17.161a.959.959,0,0,0,.936-.762l1.336-6.484A.951.951,0,0,0,19.237,22.557Zm-2.076,7.088H5.152L3.816,23.161H18.5Z"
+                                              transform="translate(0 -19.114)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="cart-link__txt"><span>0</span> პროდუქტი</span>
+                    </a>
+                </div>
+            </div>
+            <div class="user d-flex flex-column flex-lg-row align-items-lg-start mb-100">
+                <div class="user-aside">
+                    <div class="user-aside__header d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <svg class="d-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.806 22" width="48px"
+                                 height="53px">
+                                <g transform="translate(-21.277)">
+                                    <g transform="translate(21.277)">
+                                        <g transform="translate(0)">
+                                            <path fill="#f12139"
+                                                  d="M94.58,165.156a8.713,8.713,0,0,1-1.017-4.24,5.141,5.141,0,0,1,10.263,0,.55.55,0,0,0,1.1,0,6.239,6.239,0,0,0-12.463,0,9.788,9.788,0,0,0,1.161,4.779,11.526,11.526,0,0,0,2.211,2.9.546.546,0,0,0,.39.165.493.493,0,0,0,.38-.165.543.543,0,0,0,.006-.776A10.425,10.425,0,0,1,94.58,165.156Z"
+                                                  transform="translate(-88.792 -146.995)"/>
+                                            <path fill="#f12139"
+                                                  d="M79.718,2.651a12.857,12.857,0,0,1,12.254.006.589.589,0,0,0,.253.06h0a.55.55,0,0,0,.253-1.039,13.976,13.976,0,0,0-13.288.006.551.551,0,1,0,.528.968Z"
+                                                  transform="translate(-75.932 0)"/>
+                                            <path fill="#f12139"
+                                                  d="M46.757,103.04a9.136,9.136,0,0,0-8.261,5.055,8.144,8.144,0,0,0-.753,3.558,12.248,12.248,0,0,0,.8,4.35.552.552,0,0,0,1.034-.385,10.974,10.974,0,0,1-.732-3.965,7.066,7.066,0,0,1,.643-3.085,8.024,8.024,0,0,1,7.271-4.433,7.762,7.762,0,0,1,7.969,7.518,2.293,2.293,0,0,1-4.576,0,3.391,3.391,0,0,0-6.776,0,8.053,8.053,0,0,0,2.382,5.742,8.4,8.4,0,0,0,4.086,2.31.41.41,0,0,0,.143.022.549.549,0,0,0,.143-1.078,7.421,7.421,0,0,1-3.6-2.03,6.959,6.959,0,0,1-2.057-4.961,2.293,2.293,0,0,1,4.576,0,3.391,3.391,0,0,0,6.776,0A8.864,8.864,0,0,0,46.757,103.04Z"
+                                                  transform="translate(-36.894 -97.727)"/>
+                                            <path fill="#f12139"
+                                                  d="M40.98,56.922a11.507,11.507,0,0,0-4.125-3.575,12.692,12.692,0,0,0-11.346.011,11.456,11.456,0,0,0-4.131,3.6.548.548,0,0,0,.132.765.573.573,0,0,0,.319.1.56.56,0,0,0,.451-.225,10.329,10.329,0,0,1,3.735-3.261,11.573,11.573,0,0,1,10.34-.011,10.327,10.327,0,0,1,3.729,3.234.553.553,0,0,0,.77.126A.547.547,0,0,0,40.98,56.922Z"
+                                                  transform="translate(-21.277 -49.332)"/>
+                                            <path fill="#f12139"
+                                                  d="M208.647,264.561a7.223,7.223,0,0,1-1.15.1,4.759,4.759,0,0,1-4.923-4.7.55.55,0,0,0-1.1,0,5.865,5.865,0,0,0,2.613,4.829,5.975,5.975,0,0,0,3.41.974,7.875,7.875,0,0,0,1.342-.121.55.55,0,1,0-.192-1.083Z"
+                                                  transform="translate(-192.184 -246.037)"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="full-name text-center mt-25">გიორგი გიორგაძე</div>
+                        <div class="full-id text-center mt-10">ID - 836415</div>
+                        <ul class="star d-flex align-items-center justify-content-center mt-25">
+                            <li class="star__item star__item--fill"></li>
+                            <li class="star__item star__item--fill"></li>
+                            <li class="star__item"></li>
+                            <li class="star__item"></li>
+                            <li class="star__item"></li>
+                        </ul>
+                    </div>
+                    <div class="user-menu">
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.806 22" width="20px"
+                                         height="22px">
+                                        <g transform="translate(-21.277)">
+                                            <g transform="translate(21.277)">
+                                                <g transform="translate(0)">
+                                                    <path d="M94.58,165.156a8.713,8.713,0,0,1-1.017-4.24,5.141,5.141,0,0,1,10.263,0,.55.55,0,0,0,1.1,0,6.239,6.239,0,0,0-12.463,0,9.788,9.788,0,0,0,1.161,4.779,11.526,11.526,0,0,0,2.211,2.9.546.546,0,0,0,.39.165.493.493,0,0,0,.38-.165.543.543,0,0,0,.006-.776A10.425,10.425,0,0,1,94.58,165.156Z"
+                                                          transform="translate(-88.792 -146.995)"/>
+                                                    <path d="M79.718,2.651a12.857,12.857,0,0,1,12.254.006.589.589,0,0,0,.253.06h0a.55.55,0,0,0,.253-1.039,13.976,13.976,0,0,0-13.288.006.551.551,0,1,0,.528.968Z"
+                                                          transform="translate(-75.932 0)"/>
+                                                    <path d="M46.757,103.04a9.136,9.136,0,0,0-8.261,5.055,8.144,8.144,0,0,0-.753,3.558,12.248,12.248,0,0,0,.8,4.35.552.552,0,0,0,1.034-.385,10.974,10.974,0,0,1-.732-3.965,7.066,7.066,0,0,1,.643-3.085,8.024,8.024,0,0,1,7.271-4.433,7.762,7.762,0,0,1,7.969,7.518,2.293,2.293,0,0,1-4.576,0,3.391,3.391,0,0,0-6.776,0,8.053,8.053,0,0,0,2.382,5.742,8.4,8.4,0,0,0,4.086,2.31.41.41,0,0,0,.143.022.549.549,0,0,0,.143-1.078,7.421,7.421,0,0,1-3.6-2.03,6.959,6.959,0,0,1-2.057-4.961,2.293,2.293,0,0,1,4.576,0,3.391,3.391,0,0,0,6.776,0A8.864,8.864,0,0,0,46.757,103.04Z"
+                                                          transform="translate(-36.894 -97.727)"/>
+                                                    <path d="M40.98,56.922a11.507,11.507,0,0,0-4.125-3.575,12.692,12.692,0,0,0-11.346.011,11.456,11.456,0,0,0-4.131,3.6.548.548,0,0,0,.132.765.573.573,0,0,0,.319.1.56.56,0,0,0,.451-.225,10.329,10.329,0,0,1,3.735-3.261,11.573,11.573,0,0,1,10.34-.011,10.327,10.327,0,0,1,3.729,3.234.553.553,0,0,0,.77.126A.547.547,0,0,0,40.98,56.922Z"
+                                                          transform="translate(-21.277 -49.332)"/>
+                                                    <path d="M208.647,264.561a7.223,7.223,0,0,1-1.15.1,4.759,4.759,0,0,1-4.923-4.7.55.55,0,0,0-1.1,0,5.865,5.865,0,0,0,2.613,4.829,5.975,5.975,0,0,0,3.41.974,7.875,7.875,0,0,0,1.342-.121.55.55,0,1,0-.192-1.083Z"
+                                                          transform="translate(-192.184 -246.037)"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">პერსონალური ინფორმაცია</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.089 22" width="18px"
+                                         height="22px">
+                                        <g transform="translate(-45.51)">
+                                            <g transform="translate(45.51 0)">
+                                                <g transform="translate(0 0)">
+                                                    <path d="M63.141,2.69A19.55,19.55,0,0,1,54.794.063a.489.489,0,0,0-.479,0A19.549,19.549,0,0,1,45.968,2.69a.489.489,0,0,0-.458.488v9.289a7.462,7.462,0,0,0,1.426,4.347A12.058,12.058,0,0,0,50,19.75,18.723,18.723,0,0,0,54.4,21.976a.489.489,0,0,0,.3,0A18.726,18.726,0,0,0,59.11,19.75a12.056,12.056,0,0,0,3.064-2.936A7.461,7.461,0,0,0,63.6,12.467V3.178A.489.489,0,0,0,63.141,2.69Zm-.519,9.777c0,2.432-1.362,4.607-4.048,6.465a18.3,18.3,0,0,1-4.019,2.062,18.246,18.246,0,0,1-4-2.049c-2.7-1.861-4.066-4.04-4.066-6.478V3.631a20.611,20.611,0,0,0,8.067-2.583,20.613,20.613,0,0,0,8.067,2.583v8.836Z"
+                                                          transform="translate(-45.51 0)"/>
+                                                    <path d="M192.492,150.4c-.069-.415-.14-.842-.2-1.264a2.933,2.933,0,1,0-3.247,0c-.063.423-.134.849-.2,1.264-.142.85-.288,1.728-.371,2.6a.489.489,0,0,0,.487.535h3.422a.489.489,0,0,0,.487-.535C192.78,152.133,192.634,151.254,192.492,150.4Zm-1.219-1.454c.075.54.166,1.087.254,1.615.109.657.222,1.331.3,2H189.5c.082-.667.194-1.341.3-2,.088-.528.179-1.074.254-1.615a.489.489,0,0,0-.265-.5,1.956,1.956,0,1,1,1.747,0A.489.489,0,0,0,191.273,148.95Z"
+                                                          transform="translate(-181.621 -137.586)"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">კონფიდენციალობა</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item active">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.972 17.321" width="22px"
+                                         height="18px">
+                                        <g transform="translate(0 -44.2)">
+                                            <g transform="translate(0 44.2)">
+                                                <g transform="translate(0 0)">
+                                                    <path d="M21.551,50.009a1.521,1.521,0,0,0-1.031-.421h.063V47.42a3.234,3.234,0,0,0-3.22-3.22H3.22A3.234,3.234,0,0,0,0,47.42V58.3a3.234,3.234,0,0,0,3.22,3.22H17.363a3.234,3.234,0,0,0,3.22-3.22V56.112H20.52a1.521,1.521,0,0,0,1.031-.421,1.482,1.482,0,0,0,.421-1.031V51.04A1.521,1.521,0,0,0,21.551,50.009ZM19.426,58.28a2.084,2.084,0,0,1-2.063,2.063H3.22A2.084,2.084,0,0,1,1.158,58.28V47.42A2.084,2.084,0,0,1,3.22,45.358H17.363a2.084,2.084,0,0,1,2.063,2.063v2.168H12.9a3.218,3.218,0,0,0-2.252.926,3.181,3.181,0,0,0-.926,2.252v.147a3.218,3.218,0,0,0,.926,2.252,3.181,3.181,0,0,0,2.252.926h6.524Zm1.389-3.62h0a.322.322,0,0,1-.084.21.27.27,0,0,1-.21.084H12.9a2.012,2.012,0,0,1-2.02-2.02v-.147a2.012,2.012,0,0,1,2.02-2.02H20.52a.322.322,0,0,1,.21.084.27.27,0,0,1,.084.21Z"
+                                                          transform="translate(0 -44.2)"/>
+                                                    <path d="M231.326,190.6a.926.926,0,0,0,0,1.852,1.014,1.014,0,0,0,.673-.274.936.936,0,0,0,.274-.673,1.014,1.014,0,0,0-.274-.673A1.234,1.234,0,0,0,231.326,190.6Z"
+                                                          transform="translate(-218.277 -182.897)"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">სალარო</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.94 20" width="24px"
+                                         height="20px">
+                                        <g transform="translate(0 -42.135)">
+                                            <g transform="translate(0 42.135)">
+                                                <g transform="translate(0 0)">
+                                                    <path d="M12.669,54.33a2.748,2.748,0,0,0-2.137-1.158.493.493,0,0,0-.055,0,2.115,2.115,0,0,1-2.1-1.867,3.983,3.983,0,0,0,.854-.859,5.416,5.416,0,0,0,.973-2.511.5.5,0,0,0,.093-.144,4.232,4.232,0,0,0,.329-1.648,3.875,3.875,0,0,0-3.721-4,3.461,3.461,0,0,0-1.532.358,2.739,2.739,0,0,0-.531.1c-1.715.5-2.685,2.57-2.161,4.623a4.582,4.582,0,0,0,.2.6.5.5,0,0,0,.088.14A4.912,4.912,0,0,0,4.792,51.3a2.115,2.115,0,0,1-2.1,1.87l-.049,0A2.745,2.745,0,0,0,0,55.911v2.952a.5.5,0,0,0,.5.5H9.31a.5.5,0,0,0,0-1H1V55.911a1.747,1.747,0,0,1,1.745-1.745l.049,0a3.09,3.09,0,0,0,1.022-.207l2.361,3.408a.5.5,0,0,0,.82,0l2.361-3.408a3.09,3.09,0,0,0,1.022.207l.049,0a1.75,1.75,0,0,1,1.427.739.5.5,0,0,0,.815-.576ZM5.12,43.549a1.772,1.772,0,0,1,.411-.067.5.5,0,0,0,.21-.057,2.486,2.486,0,0,1,1.166-.293,2.868,2.868,0,0,1,2.722,2.907,1.78,1.78,0,0,0-1.077-.362H5.943a.6.6,0,0,1-.554-.374.585.585,0,0,0-1.109.073,3.428,3.428,0,0,1-.688,1.331A2.668,2.668,0,0,1,5.12,43.549ZM3.95,47.773a4.455,4.455,0,0,0,1.034-1.418l.005,0a1.582,1.582,0,0,0,.953.316H8.551a.792.792,0,0,1,.712.448,4.629,4.629,0,0,1-.833,2.727,2.329,2.329,0,0,1-1.845,1.057,2.28,2.28,0,0,1-1.741-.924A4.362,4.362,0,0,1,3.95,47.773ZM6.585,56.2,4.677,53.45A3.114,3.114,0,0,0,5.72,51.771a2.9,2.9,0,0,0,1.731,0A3.114,3.114,0,0,0,8.494,53.45Z"
+                                                          transform="translate(0 -42.135)"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(10.769 44.187)">
+                                                <g transform="translate(0 0)">
+                                                    <path d="M240.846,97.782l-.049,0a2.115,2.115,0,0,1-2.1-1.871,4.432,4.432,0,0,0,1.446-1.923.5.5,0,0,0,.87.161,5.25,5.25,0,0,0-.165-6.434,3.68,3.68,0,0,0-2.759-1.352c-.055,0-.192,0-.214,0a3.736,3.736,0,0,0-1.677-.336,4.064,4.064,0,0,0-3.1,1.682,6.074,6.074,0,0,0-1.085,4.393,6.02,6.02,0,0,0,.485,1.688.5.5,0,0,0,.879.053c.04-.066.092-.147.149-.228a4.942,4.942,0,0,0,.994,1.761,3.786,3.786,0,0,0,.592.534,2.115,2.115,0,0,1-2.1,1.869l-.049,0a2.746,2.746,0,0,0-2.645,2.74v2.952a.5.5,0,0,0,.5.5h12.173a.5.5,0,0,0,.5-.5v-2.952A2.746,2.746,0,0,0,240.846,97.782Zm-7.731-5.229a5.269,5.269,0,0,1-.115-.59,4.883,4.883,0,0,1-.047-.552,4.824,4.824,0,0,1,.935-3.094,3.086,3.086,0,0,1,2.344-1.292,2.854,2.854,0,0,1,1.329.294.507.507,0,0,0,.24.052l.273-.012a2.7,2.7,0,0,1,2.02,1.005,4.09,4.09,0,0,1,.942,2.54,4.341,4.341,0,0,1-.214,1.507q-.071-.188-.158-.371a4.45,4.45,0,0,0-2.282-2.234.5.5,0,0,0-.661.287,3.69,3.69,0,0,1-.239.519,1.487,1.487,0,0,1-1.373.724c-.088,0-.177,0-.265,0a3.938,3.938,0,0,0-1.252.245A4.4,4.4,0,0,0,233.116,92.553Zm1.227.271a2.871,2.871,0,0,1,1.535-.493c.066,0,.133,0,.2,0a2.478,2.478,0,0,0,2.278-1.234q.041-.073.08-.149A3.47,3.47,0,0,1,239.57,92.1c0,.015,0,.03-.006.045a4.443,4.443,0,0,1-.919,2.445,2.28,2.28,0,0,1-1.741.924C235.729,95.518,234.685,94.4,234.343,92.824Zm1.7,3.557a2.862,2.862,0,0,0,1.731,0,3.12,3.12,0,0,0,1.488,1.987,2.442,2.442,0,0,1-4.706,0A3.12,3.12,0,0,0,236.04,96.381Zm6.453,6.6H231.318v-2.454a1.748,1.748,0,0,1,1.746-1.745l.049,0a3.111,3.111,0,0,0,.5-.057,3.439,3.439,0,0,0,6.579,0,3.1,3.1,0,0,0,.5.056l.049,0a1.747,1.747,0,0,1,1.745,1.745Z"
+                                                          transform="translate(-230.32 -86.026)"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">რეფერალები</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.008 20" width="22px"
+                                         height="20px">
+                                        <g transform="translate(0 -10.354)">
+                                            <path d="M21.741,15.87a2.235,2.235,0,0,0-4.148,1.561l-2.415,1.293a4.636,4.636,0,0,0-3.195-1.915V14.749a2.236,2.236,0,1,0-1.164,0v2.06a4.646,4.646,0,0,0-3.706,2.839l-2.643-.712a2.235,2.235,0,0,0-4.394-.582A2.236,2.236,0,0,0,1.655,21.1a2.248,2.248,0,0,0,.585.078A2.235,2.235,0,0,0,4.169,20.06l2.643.712a4.657,4.657,0,0,0-.045.634,4.61,4.61,0,0,0,.974,2.838L5.8,26.182a2.236,2.236,0,1,0,.823.823l1.938-1.938a4.62,4.62,0,0,0,5.676,0l1.938,1.938A2.236,2.236,0,1,0,17,26.182l-1.938-1.938a4.62,4.62,0,0,0,.667-4.5l2.413-1.292a2.221,2.221,0,0,0,.98.609,2.222,2.222,0,0,0,1.7-.169,2.236,2.236,0,0,0,.916-3.027Zm-1.465,2a1.073,1.073,0,1,1-.508-2.019,1.078,1.078,0,0,1,.312.046,1.073,1.073,0,0,1,.2,1.973Zm-5.4,3.535A3.471,3.471,0,1,1,11.4,17.935,3.475,3.475,0,0,1,14.873,21.407ZM10.329,12.59A1.073,1.073,0,1,1,11.4,13.663,1.074,1.074,0,0,1,10.329,12.59ZM1.958,19.973a1.073,1.073,0,1,1,1.315-.757A1.066,1.066,0,0,1,1.958,19.973Zm3.491,8.9a1.072,1.072,0,1,1,0-1.517,1.074,1.074,0,0,1,0,1.517ZM18.873,27.36a1.074,1.074,0,1,1-.759-.314A1.074,1.074,0,0,1,18.873,27.36Z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">ვიზუალური ხე</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.69 18" width="20px"
+                                         height="18px">
+                                        <g transform="translate(0 -20.882)">
+                                            <g transform="translate(0 20.882)">
+                                                <path d="M219.237,333.382a1.012,1.012,0,1,0,0,2.024,1.012,1.012,0,0,0,0-2.024Z"
+                                                      transform="translate(-209.392 -320.733)"/>
+                                                <path d="M19.211,37.117a3.455,3.455,0,0,0,.008-3.5L12.88,22.643a3.492,3.492,0,0,0-6.063,0L.47,33.628a3.506,3.506,0,0,0,3.036,5.254H16.167A3.486,3.486,0,0,0,19.211,37.117Zm-1.376-.793a1.913,1.913,0,0,1-1.672.967H3.5a1.887,1.887,0,0,1-1.651-.947,1.915,1.915,0,0,1,0-1.931L8.193,23.428a1.906,1.906,0,0,1,3.311,0l6.343,10.985A1.89,1.89,0,0,1,17.835,36.324Z"
+                                                      transform="translate(0 -20.882)"/>
+                                                <path d="M218.506,157.2a1.1,1.1,0,0,0-.781,1.105c.024.32.045.644.069.963.069,1.218.138,2.412.206,3.631a.742.742,0,0,0,.757.712.757.757,0,0,0,.757-.737c0-.251,0-.482.024-.737.045-.781.093-1.562.138-2.344.024-.506.069-1.012.093-1.518a1.25,1.25,0,0,0-.093-.506A1.015,1.015,0,0,0,218.506,157.2Z"
+                                                      transform="translate(-208.912 -151.659)"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">რეპორტინგი</div>
+                            </a>
+                        </div>
+                        <div class="user-menu__item">
+                            <a class="user-menu__link d-flex align-items-center" href="#">
+                                <div class="user-menu__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.834 18.5" width="22px"
+                                         height="19px">
+                                        <g transform="translate(0.249 -24.75)">
+                                            <path stroke-width="0.5px" stroke="#fff"
+                                                  d="M3.415,105H15a1,1,0,1,0,0-2H3.415l1.293-1.293a1,1,0,1,0-1.414-1.414l-3,3a.989.989,0,0,0-.066.074c-.009.011-.017.023-.026.034s-.022.029-.033.044-.017.028-.026.043-.017.027-.024.041-.014.03-.022.045-.014.029-.02.044-.011.029-.016.044-.012.032-.017.048-.008.03-.011.045-.009.033-.012.05-.005.035-.008.052,0,.03-.006.045c0,.032,0,.065,0,.1H0q0,.049,0,.1c0,.015,0,.029.006.044s0,.035.008.053.008.033.012.05.007.03.012.045.011.032.017.047.01.03.016.045.013.029.02.043.014.031.022.046.016.027.024.04.017.03.027.044.021.028.031.042.017.025.027.036.041.048.063.07l0,0,3,3a1,1,0,0,0,1.414-1.414Z"
+                                                  transform="translate(0 -70)"/>
+                                            <path stroke-width="0.5px" stroke="#fff"
+                                                  d="M113.669,25H101a1,1,0,0,0-1,1v4a1,1,0,1,0,2,0V27h10.667V41H102V38a1,1,0,1,0-2,0v4a1,1,0,0,0,1,1h12.667a1,1,0,0,0,1-1V26A1,1,0,0,0,113.669,25Z"
+                                                  transform="translate(-93.334)"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="user-menu__txt">გასვლა</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-content">
+                    <div class="user-box mb-15">
+                        <div class="content-box">
+                            <div class="user-cash d-flex align-items-center flex-column flex-lg-row justify-content-lg-between">
+                                <div class="user-cash__list d-flex align-items-center">
+                                    <div class="user-cash__item d-flex flex-column align-items-start">
+                                        <div class="user-cash__title">ბალანსი</div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="user-cash__icon">₾</div>
+                                            <div class="user-cash__value">2000</div>
+                                        </div>
+                                    </div>
+                                    <div class="user-cash__divider"></div>
+                                    <div class="user-cash__item d-flex flex-column align-items-start">
+                                        <div class="user-cash__title">ვაუჩერი</div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="user-cash__icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.611 14" width="24px" height="14px">
+                                                    <g transform="translate(0 -104.209)">
+                                                        <g transform="translate(0 104.209)">
+                                                            <g transform="translate(0 0)">
+                                                                <path  class="fill-color" d="M22.526,104.209H1.085A1.086,1.086,0,0,0,0,105.294v3.254a.891.891,0,0,0,.414.756,2.227,2.227,0,0,1,1.065,1.9,2.227,2.227,0,0,1-1.065,1.9A.891.891,0,0,0,0,113.87v3.254a1.086,1.086,0,0,0,1.085,1.085H22.526a1.086,1.086,0,0,0,1.085-1.085V105.294A1.086,1.086,0,0,0,22.526,104.209Zm.393,12.915a.394.394,0,0,1-.393.393H5.5v-.024a.346.346,0,0,0-.692,0v.024H1.085a.394.394,0,0,1-.393-.393V113.87a.2.2,0,0,1,.086-.167,2.915,2.915,0,0,0,1.392-2.493,2.915,2.915,0,0,0-1.392-2.493.2.2,0,0,1-.086-.167v-3.254a.394.394,0,0,1,.393-.393H4.806v.024a.346.346,0,0,0,.692,0V104.9H22.526a.394.394,0,0,1,.393.393Z" transform="translate(0 -104.209)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(4.806 110.494)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M104.556,240.485a.346.346,0,0,0-.346.346v.739a.346.346,0,1,0,.692,0v-.739A.346.346,0,0,0,104.556,240.485Z" transform="translate(-104.21 -240.485)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(4.806 106.057)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M104.556,144.292a.346.346,0,0,0-.346.346v.739a.346.346,0,1,0,.692,0v-.739A.346.346,0,0,0,104.556,144.292Z" transform="translate(-104.21 -144.292)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(4.806 108.275)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M104.556,192.387a.346.346,0,0,0-.346.346v.739a.346.346,0,1,0,.692,0v-.739A.346.346,0,0,0,104.556,192.387Z" transform="translate(-104.21 -192.387)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(4.806 112.712)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M104.556,288.581a.346.346,0,0,0-.346.346v.739a.346.346,0,1,0,.692,0v-.739A.346.346,0,0,0,104.556,288.581Z" transform="translate(-104.21 -288.581)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(4.806 114.93)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M104.556,336.677a.346.346,0,0,0-.346.346v.739a.346.346,0,0,0,.692,0v-.739A.346.346,0,0,0,104.556,336.677Z" transform="translate(-104.21 -336.677)"/>
+                                                            </g>
+                                                        </g>
+                                                        <g transform="translate(9.612 106.797)">
+                                                            <g transform="translate(0 0)">
+                                                                <path class="fill-color" d="M217.332,163.543a.9.9,0,0,0-.794-.619l-2.041-.138-.762-1.9a.9.9,0,0,0-1.669,0l-.762,1.9-2.041.138a.9.9,0,0,0-.516,1.587l1.57,1.311-.5,1.984a.9.9,0,0,0,1.35.981L212.9,167.7l1.732,1.087a.9.9,0,0,0,1.35-.981l-.5-1.984,1.57-1.311A.9.9,0,0,0,217.332,163.543Zm-.722.437-1.736,1.451a.346.346,0,0,0-.114.35l.552,2.194a.207.207,0,0,1-.311.226l-1.916-1.2a.346.346,0,0,0-.368,0l-1.916,1.2a.207.207,0,0,1-.311-.226l.552-2.194a.346.346,0,0,0-.114-.35l-1.736-1.451a.207.207,0,0,1,.119-.366l2.257-.153a.346.346,0,0,0,.3-.216l.843-2.1a.207.207,0,0,1,.385,0l.843,2.1a.346.346,0,0,0,.3.216l2.257.153a.207.207,0,0,1,.119.366Z" transform="translate(-208.425 -160.324)"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="user-cash__value">50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn--submit" data-toggle="modal" data-target="#cashModal">
+                                    <span class="red-button d-flex align-items-center justify-content-center">
+                                        <span class="txt d-block">თანხის გატანა</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-box">
+                        <!-- Modal -->
+                        <div class="modal fade main-modal" id="cashModal" tabindex="-1" role="dialog"
+                             aria-labelledby="cashModalTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header d-flex align-items-center justify-content-between">
+                                        <h5 class="modal-title">თანხის გატანა</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14px" height="14px">
+                                                <path fill="#f12139" d="M14,1.4,12.6,0,7,5.6,1.4,0,0,1.4,5.6,7,0,12.6,1.4,14,7,8.4,12.6,14,14,12.6,8.4,7Z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-wallet-cash">
+                                            <h5 class="wallet-page__title">
+                                                ვერიფიკაციისთვის საჭიროა გატანის კოდი
+                                            </h5>
+                                            <div class="wallet-page__form">
+                                                <div class="wallet-page__input">
+                                                    <div class="mdl-text-fields">
+                                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                            <input class="mdl-textfield__input" type="password" id="sample2">
+                                                            <label class="mdl-textfield__label" for="sample2">გატანის კოდი</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wallet-page__question mt-30">შენი საყვარელი ცხოველი ?</div>
+                                                    <div class="mdl-text-fields">
+                                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                            <input class="mdl-textfield__input" type="text" id="sample1">
+                                                            <label class="mdl-textfield__label" for="sample1">საიდუმლო კითხვაზე პასუხი</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wallet-page__submit d-flex justify-content-center">
+                                                    <a class="d-flex align-items-center justify-content-center wallet-page__submit" href="#">
+                                                        დადასტურება
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="heading-box d-flex align-items-center justify-content-between">
+                            <h4 class="heading-box__title">ტრანზაქციების ისტორია</h4>
+                            <div class="heading-box__icons d-flex align-items-center">
+                                <button class="heading-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.998 14" width="14px"
+                                         height="14px">
+                                        <g transform="translate(-0.002)">
+                                            <g transform="translate(0.001)">
+                                                <path d="M91.853.875h7v1.75h.875V.875A.875.875,0,0,0,98.853,0h-7a.876.876,0,0,0-.875.875v1.75h.875Z"
+                                                      transform="translate(-88.353)"/>
+                                                <path d="M13.126,121.3H.876a.876.876,0,0,0-.875.875v4.375a.875.875,0,0,0,.875.875h1.75v3.5a.875.875,0,0,0,.875.875h7a.874.874,0,0,0,.875-.875v-3.5h1.75a.874.874,0,0,0,.875-.875v-4.375A.875.875,0,0,0,13.126,121.3ZM10.5,130.929h-7V124.8h7Zm1.75-7a.875.875,0,1,1,.875-.875A.874.874,0,0,1,12.251,123.929Z"
+                                                      transform="translate(-0.001 -117.804)"/>
+                                                <rect width="3.5" height="0.875" transform="translate(4.375 7.875)"/>
+                                                <rect width="5.25" height="0.875" transform="translate(4.375 9.625)"/>
+                                                <rect width="5.25" height="0.875" transform="translate(4.375 11.375)"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="heading-box__icons--divider"></div>
+                                <button class="heading-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.543 14" width="14px"
+                                         height="14px">
+                                        <g transform="translate(-0.488)">
+                                            <path d="M12.152,19.1v3.2H2.369V19.1H.489v4.138a.94.94,0,0,0,.941.94H13.09a.94.94,0,0,0,.941-.94V19.1Z"
+                                                  transform="translate(0 -10.183)"/>
+                                            <path d="M11.351,8.605,8.659,5.352s-.41-.387.035-.387h1.517V.231S10.151,0,10.5,0h2.135c.25,0,.245.194.245.194V4.868h1.4c.539,0,.133.4.133.4s-2.29,3.04-2.61,3.359A.3.3,0,0,1,11.351,8.605Z"
+                                                  transform="translate(-4.263)"/>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="transition-history">
+                                <div class="table-responsive user-box-table">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th><span>თარიღი</span></th>
+                                            <th><span>აღწერა</span></th>
+                                            <th><span>დებეტი</span></th>
+                                            <th><span>კრედიტი</span></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><span class="txt">11/04/2018</span></td>
+                                            <td><span class="txt">თანხის გატანა</span></td>
+                                            <td><span class="txt txt--green"></span></td>
+                                            <td><span class="txt txt--red">900 ₾</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">ნივთის შესყიდვა</span></td>
+                                            <td><span class="txt txt--green">500 ₾</span></td>
+                                            <td><span class="txt txt--red"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">თანხის შეტანა</span></td>
+                                            <td><span class="txt txt--green">2500 ₾</span></td>
+                                            <td><span class="txt txt--red"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">თანხის შეტანა</span></td>
+                                            <td><span class="txt txt--green">3000 ₾</span></td>
+                                            <td><span class="txt txt--red"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">რეფერალის ბონუსი</span></td>
+                                            <td><span class="txt txt--green"></span></td>
+                                            <td><span class="txt txt--red">200 ₾<</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">ბალანსის ბონუსი</span></td>
+                                            <td><span class="txt txt--green"></span></td>
+                                            <td><span class="txt txt--red">3000 ₾<</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="txt">01/01/2019</span></td>
+                                            <td><span class="txt">თანხის შეტანა</span></td>
+                                            <td><span class="txt txt--green">300 ₾</span></td>
+                                            <td><span class="txt txt--red"></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="mt-30 mb-30">
+                                    <nav class="pagination d-flex">
+                                        <a class="pagination__link d-flex align-items-center justify-content-center active"
+                                           href="#">1</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center"
+                                           href="#">2</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center"
+                                           href="#">3</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center pagination__dots"
+                                           href="#">..</a>
+                                        <a class="pagination__link d-flex align-items-center justify-content-center"
+                                           href="#">7</a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="site__footer">
+    <div class="footer">
+        <div class="container">
+            <section class="footer__top d-flex">
+                <div class="footer__top-left d-none d-lg-block">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <div class="txt mt-20">
+                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია
+                    </div>
+                </div>
+                <div class="footer__top-right">
+                    <div class="d-flex align-items-center justify-content-between d-lg-none h-70 footer__top-right__mobile-switch">
+                        <nav class="footer__top__social d-flex align-items-center">
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                            <a class="footer__top__social-link" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </nav>
+                        <button class="mobile-footer-button">
+                            <span class="d-flex w-50 h-50 align-items-center justify-content-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" width="22px"
+                                     height="16px">
+                                    <g transform="translate(0 -53.833)">
+                                        <g transform="translate(0 53.833)">
+                                            <path d="M.943,55.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -53.833)"/>
+                                            <path d="M.943,183.215H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -174.274)"/>
+                                            <path d="M.943,310.715H21.057a.941.941,0,1,0,0-1.882H.943a.941.941,0,1,0,0,1.882Z"
+                                                  transform="translate(0 -294.715)"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14px"
+                                     height="14px">
+                                  <g>
+                                    <path id="Path_89" data-name="Path 89"
+                                          d="M14,1.4,12.6,0,7,5.6,1.4,0,0,1.4,5.6,7,0,12.6,1.4,14,7,8.4,12.6,14,14,12.6,8.4,7Z"/>
+                                  </g>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="footer__top__list d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-between">
+                        <div class="footer__top__item d-none d-lg-block">
+                            <h3 class="footer__top__title">სოციალური ქსელები</h3>
+                            <nav class="footer__top__social d-flex align-items-center">
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                                <a class="footer__top__social-link" href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </nav>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                კომპანია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">ჩვენ შესახებ</a>
+                                <a class="footer__top__link" href="#">კომპანიის მისია და მიზანი</a>
+                                <a class="footer__top__link" href="#">ბიზნეს შესაძლებლობები</a>
+                            </div>
+                        </div>
+                        <div class="footer__top__item">
+                            <h3 class="footer__top__title">
+                                ინფორმაცია
+                            </h3>
+                            <div class="footer__top__links d-flex flex-column">
+                                <a class="footer__top__link" href="#">FAQ</a>
+                                <a class="footer__top__link" href="#">რეგისტრაცია</a>
+                                <a class="footer__top__link" href="#">კონტაქტი</a>
+                                <a class="footer__top__link" href="#">პარტნიორები</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="footer__bottom d-flex align-items-center justify-content-center text-center pl-15 pr-15 h-55">
+            ყველა უფლება დაცულია © www.GEONET.GE
+        </section>
+    </div>
+</footer>
+
+<!--Plugins-->
+<script src="plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+<script src="plugins/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+<!--Page Scripts-->
+<script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script defer src="plugins/getmdl-select-master/getmdl-select.min.js"></script>
+
+<!--Custom Scripts-->
+<script src="minJs/default.min.js"></script>
+</body>
+</html>
